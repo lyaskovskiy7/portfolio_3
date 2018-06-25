@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+.col-lg-4,.col-lg-6, .col-lg-10{
+	border: 0px solid;
+}
+.header{
+	background-color: #fcdb00;
+	padding-top: 90px;
+}
+.menu{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.menu a{
+	color: #010101;
+	font-size: 22px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: #B37201;
+}
+.header-text{
+	margin-top: 130px;
+}
+.header-text h1{
+	color: #010101;
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 27px;
+}
+.text-simple{
+	font-size: 20px;
+	color: #313841;
+	line-height: 24px;
+}
+.text-lorem{
+	font-size: 16px;
+	color: #555555;
+	line-height: 20px;
+}
+.icons-header a{
+	font-size: 42px;
+	color: #000;
+	margin-right: 35px;
+}
+.icons-header i:hover{
+	color: #B37201;
+}
+.ipad{
+	margin-top: 80px;
+	padding-bottom: 110px;
+}
+/*---------------------------------------ВТОРОЙ ЭКРАН----------------------------*/
+.content-heading{
+	padding-top: 108px;
+	padding-bottom: 90px;
+}
+.content-heading h1{
+	font-size: 32px;
+	color: #010101;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.content-heading p{
+	font-size: 20px;
+	color: #313841;
+	line-height: 24px;
+	margin: 0 20px 0;
+}
+.products{
+	padding-bottom: 85px;
+}
+.icons-content i{
+	font-size: 50px;
+	color: #000;
+	margin-right: 30px;
+}
+.products h2{
+	font-size: 22px;
+	color: #010101;
+	font-weight: 700;
+}
+.products p{
+	font-size: 16px;
+	color: #898989;
+	line-height: 20px;
+}
+/*-----------------------ТРЕТИЙ ЭКРАН-----------------------------*/
+.content-footer{
+	background-color: #010101;
+}
+.content-footer h1{
+	margin-top: 75px;
+	font-size: 32px;
+	color: #fcdb00;
+	font-weight: 700;
+}
+.content-footer p{
+	color: #898989;
+	font-size: 20px;
+	line-height: 24px;
+	margin: 0 20px 0;
+}
+.content-footer input[type='text']{
+	margin-top: 45px;
+	width: 580px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	outline: none;
+}
+.content-footer input[type='button']{
+	padding: 10px;
+	width: 125px;
+	color: #010101;
+	font-weight: 700;
+	box-sizing: border-box;
+	background-color: #fcdb00;
+	outline: none;
+	border-radius: 5px;
+	border: 0;
+}
+.footer{
+	padding: 48px 0 100px;
+	background-color: #010101;
+}
+.footer h4{
+	color: #fff;
+	font-size: 16px;
+	margin: 0 90px 0;
+}
+/* Медиа запросы */
+@media screen and (max-width: 992px){
+	.logo{
+		margin: 0 auto;
+	}
+	.menu{
+		text-align: center;
+		justify-content: center;
+
+	}
+	.menu li{
+		margin: 45px 45px;
+	}
+	.header-text{
+		margin-top: 20px;
+		text-align: center;
+	}
+	.icons{
+		display: flex;
+		justify-content: center;
+	}
+	.content-footer input[type='text']{
+		width: 100%;
+	}
+	.content-footer input[type='button']{
+		margin-top: 20px;
+		width: 100%;
+	}
+}
